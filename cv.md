@@ -34,5 +34,5 @@ let ScrollTimer = window.setInterval("scrollBG(307)", 64);
 * JavaRush
 * SoloLearn
 
-# English 
-A2
+# Languages 
+* English - A2
