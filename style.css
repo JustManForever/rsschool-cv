@@ -1,1 +1,71 @@
-aaa
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.my_photo {
+    max-width: 220px;
+    max-height: 250px;
+
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    border-bottom: 1px solid #eaecef;
+    color: #24292e;
+}
+
+b {
+    color: #24292e;
+}
+
+
+
+.me, .contact, .summary, .skills, .codex, .education, .languages {
+    margin-top: 60px;
+}
+
+.me {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: black;
+}
+
+h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    border: none;
+    align-self: end;
+    margin-left: 300px;
+    color: snow;
+}
+
+.page {
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+ul li {
+    margin-top: 15px;
+}
+
+ul {
+    margin-top: 20px;
+}
